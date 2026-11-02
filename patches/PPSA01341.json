@@ -1,0 +1,20 @@
+{
+  "name": "Demon's Souls - Keep souls on death (experimental)",
+  "id": "PPSA01341",
+  "version": "01.007.000",
+  "process": "eboot.bin",
+  "mods": [
+    {
+      "name": "Keep carried souls on death; empty soul bloodstain",
+      "enabled": true,
+      "description": "Retains souls during the normal death bloodstain transfer. No health, damage, earning or spending patches. Initial gameplay test passed; other death paths remain unverified. Back up saves.",
+      "memory": [
+        {
+          "offset": "20357F",
+          "off": "4189461C488D05BAD42F028B0089C1C1F91F21C141898D80000000",
+          "on": "4189858000000041C7461C00000000909090909090909090909090"
+        }
+      ]
+    }
+  ]
+}
